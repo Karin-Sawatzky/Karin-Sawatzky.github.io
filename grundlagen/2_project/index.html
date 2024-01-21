@@ -9,9 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Spencer  Pao | Computer Vision</title>
-    <meta name="author" content="Spencer  Pao" />
-    <meta name="description" content="Anything involving images" />
+    <title>onsPlautdietsch | Grammatik 02</title>
+    <meta name="author" content="Grammatik" />
+    <meta name="description" content="02 Artikel und Personalpronomen" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -41,7 +41,67 @@
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
     
+<style>
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 
+table {
+  font-weight: 100;
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}
+
+
+
+
+</style>
   </head>
 
   <!-- Body -->
@@ -67,17 +127,17 @@
 
               <!-- About -->
               <li class="nav-item ">
-                <a class="nav-link" href="/">about</a>
+                <a class="nav-link" href="/">Home</a>
               </li>
               
               <!-- Blog -->
               <li class="nav-item ">
-                <a class="nav-link" href="/blog/">blog</a>
+                <a class="nav-link" href="/blog/">Blog</a>
               </li>
 
               <!-- Other pages -->
               <li class="nav-item ">
-                <a class="nav-link" href="/projects/">projects</a>
+                <a class="nav-link" href="/grundlagen/">Grundlagen</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -99,107 +159,55 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Computer Vision</h1>
-            <p class="post-description">Anything involving images</p>
+            <h1 class="post-title">02 Artikel und Personalpronomen</h1>
+            <p class="post-description">Einführung in die Grammatik</p>
           </header>
 
           <article>
-            <p>Every picture is worth 1,000 words. Well, in this case the thousands of words and many hours were put into these projects.</p>
-
-<p>I have a list of computer vision projects with all the source code <a href="https://github.com/SpencerPao/ComputerVision" target="_blank" rel="noopener noreferrer">here</a></p>
-
-<p>More is to come. There are many applications that can be done. How exciting!</p>
+             <p>Wer auf die Idee kommt, Plautdietsch einmal schreiben zu wollen, wird wohl zunächst einen Moment innehalten.
+            Handelt es sich um eine Nachricht, so stellt sich die Frage, wie man schreiben soll, sodass der Leser die Nachricht erstens versteht, vor allem aber keine triftigen Einwände gegen die Schreibweise vorbringen kann.
+            Plautdietsch ist eben ein Dialekt, dazu gedacht, gesprochen zu werden, und nicht verschriftlicht. Eine offizielle Instanz, die die Sprachregeln der Mundart festsetzt, gibt es zwar nicht, doch es gibt tatsächlich eine Schreibweise, die in Anlehnung an andere plattdeutsche Mundarten, eine Normierung in die Wege leiten soll.
+            Diese ist hilfreich, da so der Schriftlichkeit des Dialekts nichts mehr im Wege steht. Und Schriftlichkeit ist essentiell für das Überleben einer Sprache.</p>
+            <p>Hier also ein kurzer Einstieg in die Schreibweise, welche ein Fundament für aufbauende Entwicklungen bieten kann:</p>
 
 <hr>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-      <a href="https://youtu.be/rCgy4d2pyyA" target="_blank" rel="noopener noreferrer">
-        <figure>
+          
+<body>
 
-  <picture>
-    <!-- <source media="(max-width: 480px)" srcset="/assets/img/Optical-480.webp" />
-    <source media="(max-width: 800px)" srcset="/assets/img/Optical-800.webp" />
-    <source media="(max-width: 1400px)" srcset="/assets/img/Optical-1400.webp" />
-    -->
+<h2>sein</h2>
 
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/Optical.png" title="example image">
+<table style="width:100%">
+   <tr>
+    <th>Hochdeutsch</th>
+    <th>Plautdietsch</th>
+  </tr>
+  <tr>
+    <td>ich</td>
+    <td>etj</td>
+  </tr>
+  <tr>
+    <td>du</td>
+    <td>du</td>
+  </tr>
+  <tr>
+    <td>er/sie/es</td>
+    <td>hee/see</td>
+  </tr>
+  <tr>
+    <td>wir</td>
+    <td>wij</td>
+  </tr>
+  <tr>
+    <td>ihr</td>
+    <td>jij</td>
+  </tr>
+  <tr>
+    <td>Sie</td>
+    <td>See</td>
+  </tr>
+</table>
+<p></p>
 
-  </picture>
-
-</figure>
-
-      </a>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-      <a href="https://youtu.be/nCgd9lrmYwE" target="_blank" rel="noopener noreferrer">
-        <figure>
-
-  <picture>
-    <!-- <source media="(max-width: 480px)" srcset="/assets/img/Deep%20Q-Network-480.webp" />
-    <source media="(max-width: 800px)" srcset="/assets/img/Deep%20Q-Network-800.webp" />
-    <source media="(max-width: 1400px)" srcset="/assets/img/Deep%20Q-Network-1400.webp" />
-    -->
-
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/Deep%20Q-Network.png" title="example image">
-
-  </picture>
-
-</figure>
-
-      </a>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-      <a href="https://youtu.be/QVY9BSj1Rro" target="_blank" rel="noopener noreferrer">
-        <figure>
-
-  <picture>
-    <!-- <source media="(max-width: 480px)" srcset="/assets/img/GANS-480.webp" />
-    <source media="(max-width: 800px)" srcset="/assets/img/GANS-800.webp" />
-    <source media="(max-width: 1400px)" srcset="/assets/img/GANS-1400.webp" />
-    -->
-
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/GANS.png" title="example image">
-
-  </picture>
-
-</figure>
-
-      </a>
-    </div>
-</div>
-<div class="caption">
-    Optical Character Recognition, Deep Q Networks &amp; Reinforcement Learning, GANS
-</div>
-<hr>
-
-<p>Can I call myself the next Pablo Picasso? Well, maybe my computer can come close to Picasso’s greatness.</p>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-      <a href="https://youtu.be/pvihWoaoWIM" target="_blank" rel="noopener noreferrer">
-        <figure>
-
-  <picture>
-    <!-- <source media="(max-width: 480px)" srcset="/assets/img/A_Computer_Creates_Abstract_Art-480.webp" />
-    <source media="(max-width: 800px)" srcset="/assets/img/A_Computer_Creates_Abstract_Art-800.webp" />
-    <source media="(max-width: 1400px)" srcset="/assets/img/A_Computer_Creates_Abstract_Art-1400.webp" />
-    -->
-
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/A_Computer_Creates_Abstract_Art.png" title="A Computer Creates Abstract ARt">
-
-  </picture>
-
-</figure>
-
-      </a>
-    </div>
-</div>
-<div class="caption">
-    I created art and I can't even draw a straight line!
-</div>
 
           </article>
 
