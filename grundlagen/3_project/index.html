@@ -9,10 +9,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Spencer  Pao | FinTech</title>
-    <meta name="author" content="Spencer  Pao" />
-    <meta name="description" content="All things related to Finance & Tech" />
-    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
+    <title>onsPlautdietsch | Grammatik 03</title>
+    <meta name="author" content="onsPlautdietsch" />
+    <meta name="description" content="03 Verben in der Gegenwart (1)" />
+    <meta name="keywords" content="Mennonite, Plautdietsch, Mennoniten, Russlandmennoniten, Dialekt, Sprache, Plattdeutsch" />
 
 
     <!-- Bootstrap & MDB -->
@@ -41,6 +41,64 @@
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
     
+    <!--Table internal styling-->
+    <style>
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table {
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+	font-weight: 100;
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}
+  </style>
 
   </head>
 
@@ -53,7 +111,7 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
         <div class="container">
-          <a class="navbar-brand title font-weight-lighter" href="https://onsplautdietsch.org/"><span class="font-weight-bold">Spencer</span>   Pao</a>
+          <a class="navbar-brand title font-weight-lighter" href="https://onsplautdietsch.org/"><span class="font-weight-bold">onsPlautdietsch</span></a>
           <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -67,17 +125,17 @@
 
               <!-- About -->
               <li class="nav-item ">
-                <a class="nav-link" href="/">about</a>
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/grundlagen/">Grundlagen</a>
               </li>
               
               <!-- Blog -->
               <li class="nav-item ">
-                <a class="nav-link" href="/blog/">blog</a>
-              </li>
-
-              <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/projects/">projects</a>
+                <a class="nav-link" href="/blog/">Blog</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -104,184 +162,38 @@
           </header>
 
           <article>
-            <p>Of course I love to apply tech &amp; finance! This is a huge field, and I love to explore and architect a few strategies here and there. Oh, and do remember that all of my financial content is not <i> financial advice </i> as I am not a financial advisor.</p>
+           <h2>sein</h2>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-      <a href="https://youtu.be/f73ItMWO4z8" target="_blank" rel="noopener noreferrer">
-        <figure>
-
-  <picture>
-    <!-- <source media="(max-width: 480px)" srcset="/assets/img/PTA-480.webp" />
-    <source media="(max-width: 800px)" srcset="/assets/img/PTA-800.webp" />
-    <source media="(max-width: 1400px)" srcset="/assets/img/PTA-1400.webp" />
-    -->
-
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/PTA.png" title="Pairs Trading Algorithm">
-
-  </picture>
-
-</figure>
-
-      </a>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-      <a href="https://youtu.be/TNJNCJe9fDY" target="_blank" rel="noopener noreferrer">
-        <figure>
-
-  <picture>
-    <!-- <source media="(max-width: 480px)" srcset="/assets/img/Arbitrage-480.webp" />
-    <source media="(max-width: 800px)" srcset="/assets/img/Arbitrage-800.webp" />
-    <source media="(max-width: 1400px)" srcset="/assets/img/Arbitrage-1400.webp" />
-    -->
-
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/Arbitrage.png" title="Arbitrage Trading Algorithm">
-
-  </picture>
-
-</figure>
-
-      </a>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-      <a href="https://youtu.be/dk7Sdcb3mRI" target="_blank" rel="noopener noreferrer">
-        <figure>
-
-  <picture>
-    <!-- <source media="(max-width: 480px)" srcset="/assets/img/quant-480.webp" />
-    <source media="(max-width: 800px)" srcset="/assets/img/quant-800.webp" />
-    <source media="(max-width: 1400px)" srcset="/assets/img/quant-1400.webp" />
-    -->
-
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/quant.png" title="What is a Quant?">
-
-  </picture>
-
-</figure>
-
-      </a>
-    </div>
-</div>
-<div class="caption">
-    Some of my works on algorithmic trading.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-      <a href="https://youtu.be/DhIRFx_O0w0" target="_blank" rel="noopener noreferrer">
-        <figure>
-
-  <picture>
-    <!-- <source media="(max-width: 480px)" srcset="/assets/img/CAPM-480.webp" />
-    <source media="(max-width: 800px)" srcset="/assets/img/CAPM-800.webp" />
-    <source media="(max-width: 1400px)" srcset="/assets/img/CAPM-1400.webp" />
-    -->
-
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/CAPM.png" title="Capital Asset Pricing Model">
-
-  </picture>
-
-</figure>
-
-      </a>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-      <a href="https://youtu.be/AvstCw0_1Vw" target="_blank" rel="noopener noreferrer">
-        <figure>
-
-  <picture>
-    <!-- <source media="(max-width: 480px)" srcset="/assets/img/dcf-480.webp" />
-    <source media="(max-width: 800px)" srcset="/assets/img/dcf-800.webp" />
-    <source media="(max-width: 1400px)" srcset="/assets/img/dcf-1400.webp" />
-    -->
-
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/dcf.png" title="Discounted Cash Flow">
-
-  </picture>
-
-</figure>
-
-      </a>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-      <a href="https://youtu.be/GGgNM7WanK8" target="_blank" rel="noopener noreferrer">
-        <figure>
-
-  <picture>
-    <!-- <source media="(max-width: 480px)" srcset="/assets/img/scrapefin-480.webp" />
-    <source media="(max-width: 800px)" srcset="/assets/img/scrapefin-800.webp" />
-    <source media="(max-width: 1400px)" srcset="/assets/img/scrapefin-1400.webp" />
-    -->
-
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/scrapefin.png" title="Financial Scraping">
-
-  </picture>
-
-</figure>
-
-      </a>
-    </div>
-</div>
-<div class="caption">
-    Some fundamental analysis and tools to get free financial data.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-      <a href="https://youtu.be/Og6qz82lAQ8" target="_blank" rel="noopener noreferrer">
-        <figure>
-
-  <picture>
-    <!-- <source media="(max-width: 480px)" srcset="/assets/img/Momentum-480.webp" />
-    <source media="(max-width: 800px)" srcset="/assets/img/Momentum-800.webp" />
-    <source media="(max-width: 1400px)" srcset="/assets/img/Momentum-1400.webp" />
-    -->
-
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/Momentum.png" title="Momentum Trading Strategies">
-
-  </picture>
-
-</figure>
-
-      </a>
-    </div>
-</div>
-<div class="caption">
-    Detailing popular trading, momentum stratgies.
-</div>
-
-<p>Furthermore, I have a video series on how to hypothetically make $1,000,000 with paper trading. <b> I do not have a portfolio where this series is modeled after.</b> This video series can be found <a href="https://www.youtube.com/watch?v=PXUnovVYzRo&amp;list=PLHT3ZrWZ1pcS-Ct3DHotXuB9oM7R4ui1x" target="_blank" rel="noopener noreferrer">here</a></p>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-      <a href="https://www.youtube.com/watch?v=PXUnovVYzRo&amp;list=PLHT3ZrWZ1pcS-Ct3DHotXuB9oM7R4ui1x" target="_blank" rel="noopener noreferrer">
-        <figure>
-
-  <picture>
-    <!-- <source media="(max-width: 480px)" srcset="/assets/img/Road2-480.webp" />
-    <source media="(max-width: 800px)" srcset="/assets/img/Road2-800.webp" />
-    <source media="(max-width: 1400px)" srcset="/assets/img/Road2-1400.webp" />
-    -->
-
-    <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/Road2.png" title="Hypothetical Road to Millionaire Status">
-
-  </picture>
-
-</figure>
-
-      </a>
-    </div>
-</div>
-<div class="caption">
-    Hypothetical Road to $1,000,000
-</div>
+<table style="width:100%">
+   <tr>
+    <th>Hochdeutsch</th>
+    <th>Plautdietsch</th>
+  </tr>
+  <tr>
+    <td>ich</td>
+    <td>etj</td>
+  </tr>
+  <tr>
+    <td>du</td>
+    <td>du</td>
+  </tr>
+  <tr>
+    <td>er/sie/es</td>
+    <td>hee/see</td>
+  </tr>
+  <tr>
+    <td>wir</td>
+    <td>wij</td>
+  </tr>
+  <tr>
+    <td>ihr</td>
+    <td>jij</td>
+  </tr>
+  <tr>
+    <td>Sie</td>
+    <td>See</td>
+  </tr>
+</table>
 
           </article>
 
