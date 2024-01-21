@@ -49,6 +49,71 @@
 
     <!-- Header -->
     <header>
+      <style>
+      body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}</style>
 
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
@@ -91,6 +156,7 @@
           </div>
         </div>
       </nav>
+    
     </header>
 
     <!-- Content -->
@@ -111,12 +177,7 @@
             <p>Hier also ein kurzer Einstieg in die Schreibweise, welche ein Fundament für aufbauende Entwicklungen bieten kann:</p>
 
 <hr>
-            <style>
-table, th, td, h2 {
-  border:1px solid white;
-  text-align: center;
-}
-</style>
+          
 <body>
 
 <h2>sein</h2>
@@ -152,34 +213,7 @@ table, th, td, h2 {
   </tr>
 </table>
 <p></p>
-<ul>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/ARIMA" target="_blank" rel="noopener noreferrer">ARIMA</a></li>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/Bayesian%20Regression" target="_blank" rel="noopener noreferrer">Bayesian Regression</a></li>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/Data%20Imputations" target="_blank" rel="noopener noreferrer">Data Imputations</a></li>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/Data%20Wrangling" target="_blank" rel="noopener noreferrer">Data Wrangling</a></li>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/GRU" target="_blank" rel="noopener noreferrer">GRU (Gated Recurrent Unit)</a></li>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/KNN" target="_blank" rel="noopener noreferrer">KNN (K Nearest Neighbor)</a></li>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/Linear%20Regression" target="_blank" rel="noopener noreferrer">Linear Regression</a></li>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/Logistic%20Regression" target="_blank" rel="noopener noreferrer">Logistic Regression</a></li>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/Multiple%20Linear%20Regression" target="_blank" rel="noopener noreferrer">Multiple Linear Regression</a></li>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/Naive%20Bayes" target="_blank" rel="noopener noreferrer">Naive Bayes</a></li>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/Principal%20Components" target="_blank" rel="noopener noreferrer">Principal Components</a></li>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/RNN" target="_blank" rel="noopener noreferrer">RNN (Recurrent Neural Networks)</a></li>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/Recommendation%20Systems" target="_blank" rel="noopener noreferrer">Recommendation Systems</a></li>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/Sampling%20Methods" target="_blank" rel="noopener noreferrer">Sampling Methods</a></li>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/Visualizations_R" target="_blank" rel="noopener noreferrer">Visualizations in <b> R </b></a></li>
-  <li><a href="https://github.com/SpencerPao/Data_Science/tree/main/XGBoost" target="_blank" rel="noopener noreferrer">XGBoost</a></li>
-</ul>
 
-<p>Natural Language Processing: <b> Python </b></p>
-<ul>
-  <li><a href="https://github.com/SpencerPao/Natural-Language-Processing/tree/main/Question%20Answering%20Modeling" target="_blank" rel="noopener noreferrer">Question Answering (QA)</a></li>
-  <li><a href="https://github.com/SpencerPao/Natural-Language-Processing/tree/main/Transformers" target="_blank" rel="noopener noreferrer">Transformers</a></li>
-  <li><a href="https://github.com/SpencerPao/Natural-Language-Processing/tree/main/BERT" target="_blank" rel="noopener noreferrer">Bidirectional Encoder Representations (BERT)</a></li>
-  <li><a href="https://github.com/SpencerPao/Natural-Language-Processing/tree/main/Question%20Answering%20Modeling" target="_blank" rel="noopener noreferrer">Named Entity Recognition (NER)</a></li>
-  <li><a href="https://github.com/SpencerPao/Natural-Language-Processing/tree/main/Sentiment_Analysis" target="_blank" rel="noopener noreferrer">Sentiment Analysis</a></li>
-  <li><a href="https://github.com/SpencerPao/Natural-Language-Processing/tree/main/Text_Preprocessing" target="_blank" rel="noopener noreferrer">Text Preprocessing</a></li>
-</ul>
 
           </article>
 
