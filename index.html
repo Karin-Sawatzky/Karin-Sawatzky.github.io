@@ -128,11 +128,43 @@
     <source media="(max-width: 1400px)" srcset="/assets/img/prof_pic-1400.webp" />
     -->
 
-    <!-- Fallback to the original file -->
+    <!-- Fallback to the original file --><!--
     <img class="img-fluid z-dept-1 rounded" src="assets/img
-/Jan Luyken - ferryman pieter pietersz.png" alt="Geheime Versammlung auf Fährboot, Illustration Jan Luyken">
+/Jan Luyken - ferryman pieter pietersz.png" alt="Geheime Versammlung auf Fährboot, Illustration Jan Luyken">-->
   </picture>
-
+  <h1 id="word"></h1> 
+      <p id="definition"></p> 
+      <script> 
+          var dictionary = [ 
+              {word: 'jankere', definition: 'sehnen'}, 
+              {word: 'Nuschte', definition: 'Bedeutungslosigkeiten'}, 
+              {word: 'verbiestern', definition: 'sich verirren'}, 
+              {word: 'auflüare', definition: 'abwarten'}, 
+              {word: 'nijschearich', definition: 'neugierig'}, 
+              {word: 'auldoagsch', definition: 'alltäglich'}, 
+              {word: 'äwareen', definition: 'gleich'}, 
+              {word: 'äwaschrots', definition: 'quer gegenüber'}, 
+              {word: 'endeele', definition: 'einteilen'}, 
+              {word: 'toopkome', definition: 'zusammenkommen'}, 
+              {word: 'wachte', definition: 'warten'}, 
+              {word: 'tus', definition: 'zuahuse'}, 
+              {word: 'tijdich', definition: 'zeitig'}, 
+              {word: 'schoapsennich', definition: 'scharfsinnig'}, 
+              {word: 'Rebaussel', definition: 'Lärm'}, 
+              {word: 'prachere', definition: 'bitten, betteln'}, 
+              {word: 'ooldmood'sch', definition: 'altmodisch'}, 
+              {word: 'noanich', definition: 'nirgendwo'}, 
+              {word: 'Läweslost', definition: 'Lebenslust'}, 
+              {word: 'toopkome', definition: 'zusammenkommen'}, 
+          ]; 
+          (function(){ 
+              var selection = dictionary[Math.floor(Math.random()*dictionary.length)]; 
+              for (var key in selection){ 
+                  document.getElementById(key).innerHTML = selection[key]; 
+              } 
+              return; 
+          })(); 
+      </script> 
 </figure>
 
             <div class="address">
