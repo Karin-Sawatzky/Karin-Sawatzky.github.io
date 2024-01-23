@@ -112,6 +112,43 @@
       <!-- about.html -->
       <div class="post">
         <header class="post-header">
+
+          
+          <h1 id="word"></h1> 
+    <p id="definition"></p> 
+    <script> 
+        var dictionary = [ 
+            {word: 'jankere', definition: 'sehnen'}, 
+            {word: 'Nuschte', definition: 'Bedeutungslosigkeiten'}, 
+            {word: 'verbiestern', definition: 'sich verirren'}, 
+            {word: 'auflüare', definition: 'abwarten'}, 
+            {word: 'nijschearich', definition: 'neugierig'}, 
+            {word: 'auldoagsch', definition: 'alltäglich'}, 
+            {word: 'äwareen', definition: 'gleich'}, 
+            {word: 'äwaschrots', definition: 'quer gegenüber'},
+            {word: 'endeele', definition: 'einteilen'}, 
+            {word: 'toopkome', definition: 'zusammenkommen'}, 
+            {word: 'wachte', definition: 'warten'}, 
+            {word: 'tus', definition: 'zuahuse'}, 
+            {word: 'tijdich', definition: 'zeitig'}, 
+            {word: 'schoapsennich', definition: 'scharfsinnig'}, 
+            {word: 'Rebaussel', definition: 'Lärm'}, 
+            {word: 'prachere', definition: 'bitten, betteln'}, 
+            {word: "ooldmood'sch", definition: 'altmodisch'}, 
+            {word: 'noanich', definition: 'nirgendwo'}, 
+            {word: 'Läweslost', definition: 'Lebenslust'}, 
+            {word: 'toopkome', definition: 'zusammenkommen'}, 
+        ]; 
+        (function(){ 
+            var selection = dictionary[Math.floor(Math.random()*dictionary.length)]; 
+            for (var key in selection){ 
+                document.getElementById(key).innerHTML = selection[key]; 
+            } 
+            return; 
+        })(); 
+    </script> 
+
+          
           <h1 class="post-title">
            <span class="font-weight-bold">onsPlautdietsch</span>
           </h1>
@@ -154,41 +191,6 @@
 -->
 <p>Welkome on onse Sijd!</p>
 
-
-<h1 id="word"></h1> 
-      <p id="definition"></p> 
-      <script> 
-          var dictionary = [ 
-              {word: 'jankere', definition: 'sehnen'}, 
-              {word: 'Nuschte', definition: 'Bedeutungslosigkeiten'}, 
-              {word: 'verbiestern', definition: 'sich verirren'}, 
-              {word: 'auflüare', definition: 'abwarten'}, 
-              {word: 'nijschearich', definition: 'neugierig'}, 
-              {word: 'auldoagsch', definition: 'alltäglich'}, 
-              {word: 'äwareen', definition: 'gleich'}, 
-              {word: 'äwaschrots', definition: 'quer gegenüber'}, 
-              {word: 'endeele', definition: 'einteilen'}, 
-              {word: 'toopkome', definition: 'zusammenkommen'}, 
-              {word: 'wachte', definition: 'warten'}, 
-              {word: 'tus', definition: 'zuahuse'}, 
-              {word: 'tijdich', definition: 'zeitig'}, 
-              {word: 'schoapsennich', definition: 'scharfsinnig'}, 
-              {word: 'Rebaussel', definition: 'Lärm'}, 
-              {word: 'prachere', definition: 'bitten, betteln'}, 
-              {word: 'ooldmood'sch', definition: 'altmodisch'}, 
-              {word: 'noanich', definition: 'nirgendwo'}, 
-              {word: 'Läweslost', definition: 'Lebenslust'}, 
-              {word: 'toopkome', definition: 'zusammenkommen'}, 
-          ]; 
-          (function(){ 
-              var selection = dictionary[Math.floor(Math.random()*dictionary.length)]; 
-              for (var key in selection){ 
-                  document.getElementById(key).innerHTML = selection[key]; 
-              } 
-              return; 
-          })(); 
-      </script> 
-            
 <!--<ul>
   <li>Contact me at <b>business.inquiry.spao@gmail.com</b> if interested!</li>
   <li>Some of the Ongoing works:
