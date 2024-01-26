@@ -69,28 +69,11 @@
 	}
 	
 	tbody {
-		tr {
-			&:hover {
-				color: white;
+		tr:hover {
+			background-color:linear-gradient(45deg, #3464b2ad, #5f2c82);
+			color: white;
 			}
 		}
-		td {
-			position: relative;
-			&:hover {
-				&:before {
-					content: "";
-					position: absolute;
-					left: 0;
-					right: 0;
-					top: -9999px;
-					bottom: -9999px;
-					color: white;
-					background: linear-gradient(45deg, #3464b2ad, #5f2c82);
-					z-index: -1;
-				}
-			}
-		}
-	}
   </style>
 
   </head>
