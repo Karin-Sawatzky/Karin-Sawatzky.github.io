@@ -155,13 +155,7 @@
               ist der Dialekt im Laufe der letzten Jahrhunderte zu einem identitätsstiftenden Aspekt der ethnischen Mennoniten geworden, <i>de plautdietsche Mensche</i>.
               </p>
             
-<div id="content" class="8u skel-cell-important">
-						<section>(function newFact() {
-  var facts = ['"auflüare" - abwarten', '"verbiestern" - sich verirren', '"nieschearich" - neugierig', '"auldoagsch" - alltäglich', '"äwareen" - gleich', '"äwaschrots" - quer gegenüber', '"enndeele" - einteilen', '"toopkome" - zusammenkommen', '"wachte" - warten', "tüs" - zuhause', '"tiedijch" - früh', '"schoapsennijch" - scharfsinnig', '"Rebaussel" - Lärm', '"prachere" - bitten, betteln', '"polijt'sch" -gerissen, hinterlistig', '"ooldmood'sch" - altmodisch', '"noanijch" - nirgendwo', '"Nuschte" - Beudeutungslosigkeiten', '"Läweslost" - Lebenslust',  ];
-  var randomFact = Math.floor(Math.random() * facts.length);
-  document.getElementById('factDisplay').innerHTML = facts[randomFact];
-})();
-<div id="factDisplay"></div>
+
 
               
 <!--<p>Was zu dieser Entwicklung beitrug, Vergangenes und andere prägende Einflüsse sollen im <a href="/blog/index.html" target="_blank" rel="noopener noreferrer">Blog</a> stichprobenartig erkundet werden.</p>-->
@@ -172,6 +166,61 @@
 <br>
 <br>
 <br>
+<!-- WORD GENERATOR NOW FOR SILLY POEMS-->	
+	    <!--<title>random words</title>-->
+  <style>
+    #output {
+    
+      font-family:arial;
+    }
+  </style>
+
+  <!--<h2>random word generator</h2>-->
+  <div>
+    <button>Los!</button>
+  </div>
+  <div>
+   
+  
+
+  <div id="output"></div>
+
+  <script>
+   
+    var btn = document.querySelector("button");
+    var out = document.getElementById("output");
+    
+  
+    btn.addEventListener("click", getWord);
+   
+    function getWord(){
+     
+      
+      var theWord= [
+        'Doa wia ne Grupp, de eet blooß Supp en wohll von nichts aundret weetn, waut see nich kohnne seetn.',
+        'potato',
+        'cow',
+        'parrot',
+        'stone',
+        'watch',
+         'house',
+         'biolumonesance',
+        'brake',
+        'potato/salad',
+        'trip',
+        'hipopotomus',
+        'mask',
+        'chicken',
+        'Pneumonoultramicroscopicsilicovolcanoconiosis',
+      ];
+
+      
+      var wordNum = Math.floor(Math.random() * theWord.length);
+      
+     
+      output.textContent = theWord[wordNum];
+    }
+</script>
 <!--<ul>
   <li>Contact me at <b>business.inquiry.spao@gmail.com</b> if interested!</li>
   <li>Some of the Ongoing works:
